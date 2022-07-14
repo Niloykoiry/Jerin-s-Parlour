@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+.title {
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 4.3rem;
+  text-align: center;
+}
+.title span {
+  color: #f63e7b;
+}
+/* HEADER Styling */
+.header {
+  background-color: #fff8f5;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+.logo {
+  height: 4.8rem;
+}
+.menu-list {
+  gap: 4rem;
+  align-items: center;
+}
+.menu-list a {
+  font-size: 1.4rem;
+  line-height: 0.9rem;
+  color: #474747;
+  letter-spacing: 0.396px;
+}
+.active {
+  font-weight: 600;
+}
+.button {
+  font-size: 1.6rem;
+  padding: 1rem 3rem;
+  background: #f73e7b;
+  border-radius: 5px;
+  color: #fff;
+}
+.button:hover {
+  background: transparent;
+  color: #f73e7b;
+  border-color: #f73e7b;
+}
+.navbar-toggler-icon {
+  font-size: 2rem;
+}
+.hero {
+  margin-top: 3rem;
+}
+
+.hero-tagline {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 6rem;
+  letter-spacing: 0.01em;
+  color: #111430;
+}
+.hero-texts {
+  width: 60%;
+  line-height: 2.4rem;
+  letter-spacing: 0.005em;
+  color: #666666;
+  margin: 2.4rem 0;
+}
+.hero-image {
+  max-width: 48.4rem;
+  width: 100%;
+  /* height: 47.8rem; */
+}
+/* SERVICE Styling */
+.service-section {
+  margin-top: 9rem;
+  margin-bottom: 5.4rem;
+}
+.service-container {
+  margin-top: 7.5rem;
+  margin-bottom: 4.5rem;
+}
+.service-card {
+  padding: 35px 50px 15px;
+  background: transparent;
+}
+.highlight-card {
+  box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.service-img {
+  max-width: 72px;
+  height: auto;
+}
+.service-title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  margin: 1.8rem 0;
+}
+.service-price {
+  color: #f63e7b;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.service-card-text {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: rgba(0, 0, 0, 0.7);
+  letter-spacing: 0.396px;
+}
+/* SCREEN SECTION Styling */
+.screen-section {
+  background: #fff8f5;
+  padding: 12rem 0;
+}
+.screen-img {
+  max-width: 58rem;
+  width: 100%;
+  height: auto;
+}
+.screen-heading-text {
+  margin-bottom: 7rem;
+}
+.screen-heading {
+}
+.screen-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.396px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 3.2rem;
+  width: 80%;
+}
+.screen-number {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  letter-spacing: 0.01em;
+  color: #f63e7b;
+}
+.screen-customer-service {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+}
+/* TESTIMONIAL SECTION Styling */
+.testimonial-section {
+  margin-top: 9rem;
+  margin-bottom: 6.4rem;
+}
+
+.testimonial-title {
+  margin-bottom: 6rem;
+}
+.testimonial-image {
+  width: 6.4rem;
+  height: auto;
+}
+.name-designation {
+}
+.name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.designation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.name-designation-text {
+  margin: 1.6rem 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.005rem;
+  color: #707070;
+}
+.testimonial-section i {
+  font-size: 2.4rem;
+  color: #ffac0c;
+}
+
+/* CONTACT SECTION Styling */
+.contact-section {
+  background: #fff8f5;
+  padding: 10rem 0 4rem;
+}
+.contact-input {
+  margin-bottom: 2.5rem;
+  border: none;
+  padding: 1.6rem 2rem;
+}
+.contact-input::placeholder {
+  color: #707070;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  letter-spacing: 0.396px;
+}
+textarea {
+  height: 16rem;
+  resize: none;
+}
+.form-container {
+  margin-top: 8rem;
+}
+/* FOOTER SECTION Styling */
+.footer-section {
+  color: #fff;
+  background: #f63e7b;
+  padding: 6rem 0 13rem;
+}
+.footer-section i {
+  font-size: 2.4rem;
+}
+.footer-section ul li {
+  margin-top: 1rem;
+}
+.footer-section li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.005em;
+  color: #d8d8d8;
+}
+.social i {
+  font-size: 2.4rem;
+  margin-right: 2rem;
+}
+.g-5 {
+  --bs-gutter-x: 5rem !important;
+}

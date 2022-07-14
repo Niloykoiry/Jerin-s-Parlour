@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1200px) {
+  .hero-tagline {
+    font-size: 4rem;
+  }
+  .hero-texts {
+    width: 100%;
+  }
+  .screen-heading-text {
+    margin-bottom: 0.5rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero-tagline {
+    margin-top: 2rem;
+  }
+  .break {
+    display: none;
+  }
+  .screen-img {
+    max-width: 100%;
+  }
+  .quick {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-tagline {
+    font-size: 3.2rem;
+    line-height: 2.8rem;
+  }
+  .about {
+    margin-top: 2rem;
+  }
+}
